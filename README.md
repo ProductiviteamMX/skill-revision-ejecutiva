@@ -10,6 +10,13 @@ Skill para Claude Code (también sirve como guía manual). Sirve para crear y re
 
 ## Instalación
 
+Opción rápida, con git:
+```
+git clone https://github.com/ProductiviteamMX/skill-revision-ejecutiva.git ~/.claude/skills/revision-ejecutiva
+```
+
+Opción manual:
+
 1. Descomprime la carpeta `revision-ejecutiva` en una de estas rutas:
    - `~/.claude/skills/` para tu usuario.
    - `.claude/skills/` dentro de un proyecto.
