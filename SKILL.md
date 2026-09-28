@@ -41,6 +41,11 @@ Sigue las fases en orden. Cada una tiene su referencia y su puerta de control; n
 
 Dependencias: `python-pptx`, `python-docx`, `pymupdf`, `pillow` y LibreOffice (`soffice`). Si no hay LibreOffice ni sudo, ver la nota de instalación en `references/visual.md`.
 
+## Si no hay subagentes (Claude.ai, desktop o móvil)
+
+- Haz las rondas de `references/revisiones.md` en secuencia dentro de la misma conversación, cambiando de rol de forma explícita ("Ahora leo como lector en frío…"). Si el usuario puede, es mejor que abra una conversación nueva por ronda y pegue el prompt: así la revisión no arrastra el contexto de la redacción.
+- Si el entorno no tiene LibreOffice para `render_preview.sh`, pídele al usuario capturas de las láminas o revisa el archivo en la herramienta de presentaciones.
+
 ## Cuándo preguntar al usuario
 
 Pregunta solo lo que cambia el resultado: quién decide, qué se le pide, qué experiencia propia sostiene la propuesta, qué datos son confidenciales. Todo lo demás se resuelve con un supuesto explícito.
